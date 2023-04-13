@@ -1,0 +1,9 @@
+[2023-04-13 19:16:04,689] MSDT081/INFO/locust.main: Run time limit set to 1000 seconds
+[2023-04-13 19:16:04,690] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-13 19:16:04,692] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 2.00 per second
+[2023-04-13 19:17:35,009] MSDT081/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-13 19:25:07,927] MSDT081/INFO/locust.runners: All users spawned: {"MyReqRes": 334, "executeTest": 333, "runtest": 333} (1000 total users)
+[2023-04-13 19:32:44,450] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
+[2023-04-13 19:32:45,198] MSDT081/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-13 19:32:45,246] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-13-2023___07-16-03-PM.html
+[2023-04-13 19:32:45,250] MSDT081/INFO/locust.main: Shutting down (exit code 0)
