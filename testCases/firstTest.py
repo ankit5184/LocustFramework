@@ -1,5 +1,5 @@
 from locust import HttpUser, SequentialTaskSet, task, constant, events
-from commonFunctions.readJson import read_json_file
+from commonLib.readJson import read_json_file
 from genricMethods.getRequest import get_request
 from genricMethods.postRequest import post_request
 from genricMethods.putRequest import put_request

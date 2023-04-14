@@ -22,11 +22,3 @@ def get_request(url, headers=None, params=None):
         response=response,
     )
     return response.status_code, response_body
-
-# def make_get_request(url, headers=None, params=None):
-#     response = requests.get(url, headers=headers, params=params)
-#     try:
-#         response_body = json.loads(response.text)
-#     except json.decoder.JSONDecodeError:
-#         response_body = response.text
-#     return response.status_code, response_body

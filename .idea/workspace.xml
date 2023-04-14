@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dadfc5b6-9641-444c-89e8-71763011099a" name="Changes" comment="" />
+    <list default="true" id="dadfc5b6-9641-444c-89e8-71763011099a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ParallelTestcases.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/report_04-14-2023___05-43-05-PM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/report_04-13-2023___07-16-03-PM.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report_04-14-2023___05-44-19-PM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonFunctions/readCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonLib/readCsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonFunctions/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonLib/readJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genricMethods/getRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/genricMethods/getRequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locust.log" beforeDir="false" afterPath="$PROJECT_DIR$/locust.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/firstTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/firstTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/reqres.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/reqres.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,16 +31,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/LICENSE.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/commonLib/readJson.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/genricMethods/deleteRequest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/genricMethods/getRequest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/genricMethods/postRequest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/genricMethods/putRequest.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/locust.log" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/parallel.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testCases/demo.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testCases/firstTest.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testCases/reqres.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testData/jsonFiles/createUser.json" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testData/jsonFiles/updateUser.json" root0="SKIP_INSPECTION" />
   </component>
@@ -40,14 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AnkitKumar/Python Locust Framework/Locust Framework/testCases&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/AnkitKumar/Python Locust Framework/Locust Framework/commonLib",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Locust Framework" sdk-home="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework\Scripts\python.exe">
@@ -58,6 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework\commonLib" />
+      <recent name="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework" />
       <recent name="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework\testCases" />
       <recent name="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework\testData\jsonFiles" />
       <recent name="C:\Users\AnkitKumar\Python Locust Framework\Locust Framework\commonFunctions" />

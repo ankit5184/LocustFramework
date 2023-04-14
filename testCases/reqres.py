@@ -1,7 +1,8 @@
 from locust import HttpUser, SequentialTaskSet, task, between
 from genricMethods.getRequest import get_request
 from genricMethods.postRequest import post_request
-from commonFunctions.readJson import read_json_file
+from commonLib.readJson import read_json_file
+
 
 class reqres(SequentialTaskSet):
 
@@ -12,12 +13,12 @@ class reqres(SequentialTaskSet):
         print(response_body)
         print(status_code)
 
-        @task
-        def single_resource(self):
-            status_code, response_body = get_request("/api/unknown/2")
-            assert status_code == 200, f"Unexpected status code: {status_code}"
-            print(response_body)
-            print(status_code)
+    @task
+    def single_resource(self):
+        status_code, response_body = get_request("/api/unknown/2")
+        assert status_code == 200, f"Unexpected status code: {status_code}"
+        print(response_body)
+        print(status_code)
 
     @task
     def resource_not_found(self):
@@ -25,7 +26,6 @@ class reqres(SequentialTaskSet):
         assert status_code == 404, f"Unexpected status code: {status_code}"
         print(response_body)
         print(status_code)
-
 
     @task
     def register_succ(self):
@@ -35,7 +35,6 @@ class reqres(SequentialTaskSet):
         assert status_code == 200, f"Unexpected status code: {status_code}"
         print(response_body)
         print(status_code)
-
 
 
 class executeTest(HttpUser):
