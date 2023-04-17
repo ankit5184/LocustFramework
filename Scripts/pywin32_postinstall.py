@@ -67,7 +67,7 @@ verbose = 1
 root_key_name = "Software\\Python\\PythonCore\\" + sys.winver
 
 try:
-    # When this script is run from inside the bdist_wininst installer,
+    # When this script is run_test.bat from inside the bdist_wininst installer,
     # file_created() and directory_created() are additional builtin
     # functions which write lines to Python23\pywin32-install.log. This is
     # a list of actions for the uninstaller, the format is inspired by what
@@ -680,7 +680,7 @@ def uninstall(lib_dir):
         print("FAILED to remove system files: %s" % (why,))
 
 
-# NOTE: If this script is run from inside the bdist_wininst created
+# NOTE: If this script is run_test.bat from inside the bdist_wininst created
 # binary installer or uninstaller, the command line args are either
 # '-install' or '-remove'.
 
@@ -707,10 +707,10 @@ def main():
 
     > python pywin32_postinstall.py -install
 
-    If you installed pywin32 via a .exe installer, this should be run
-    automatically after installation, but if it fails you can run it again.
+    If you installed pywin32 via a .exe installer, this should be run_test.bat
+    automatically after installation, but if it fails you can run_test.bat it again.
 
-    If you installed pywin32 via PIP, you almost certainly need to run this to
+    If you installed pywin32 via PIP, you almost certainly need to run_test.bat this to
     setup the environment correctly.
 
     Execute with script with a '-install' parameter, to ensure the environment

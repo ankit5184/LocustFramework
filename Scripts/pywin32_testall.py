@@ -16,10 +16,10 @@ failures = []
 
 # Run a test using subprocess and wait for the result.
 # If we get an returncode != 0, we know that there was an error, but we don't
-# abort immediately - we run as many tests as we can.
+# abort immediately - we run_test.bat as many tests as we can.
 def run_test(script, cmdline_extras):
     dirname, scriptname = os.path.split(script)
-    # some tests prefer to be run from their directory.
+    # some tests prefer to be run_test.bat from their directory.
     cmd = [sys.executable, "-u", scriptname] + cmdline_extras
     print("--- Running '%s' ---" % script)
     sys.stdout.flush()
@@ -93,7 +93,7 @@ def main():
         ]
         + site_packages
     ]
-    extras = remains + ["1"]  # only run "level 1" tests in CI
+    extras = remains + ["1"]  # only run_test.bat "level 1" tests in CI
     find_and_run(maybes, extras)
 
     # adodbapi
@@ -105,7 +105,7 @@ def main():
         find_and_run(maybes, remains)
         # This script has a hard-coded sql server name in it, (and markh typically
         # doesn't have a different server to test on) but there is now supposed to be a server out there on the Internet
-        # just to run these tests, so try it...
+        # just to run_test.bat these tests, so try it...
         maybes = [
             os.path.join(directory, "adodbapi", "test", "test_adodbapi_dbapi20.py")
             for directory in code_directories

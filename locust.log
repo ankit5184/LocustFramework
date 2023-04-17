@@ -19,3 +19,6 @@
 [2023-04-17 13:15:05,092] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
 [2023-04-17 13:15:05,160] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-17-2023___01-14-54-PM.html
 [2023-04-17 13:15:05,164] MSDT081/INFO/locust.main: Shutting down (exit code 0)
+[2023-04-17 14:31:38,159] MSDT081/INFO/locust.main: Run time limit set to 10 seconds
+[2023-04-17 14:31:38,159] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-17 14:31:38,160] MSDT081/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
