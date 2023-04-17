@@ -4,7 +4,6 @@ import webbrowser
 
 class MyReqRes(HttpUser):
     wait_time = between(1, 5)
-    host = "https://reqres.in"
 
     @task
     def get_users(self):

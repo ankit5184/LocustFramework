@@ -49,6 +49,5 @@ class post(SequentialTaskSet):
 
 
 class runtest(HttpUser):
-    host = "https://reqres.in"
     wait_time = constant(1)
     tasks = [post]

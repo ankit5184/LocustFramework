@@ -38,6 +38,5 @@ class reqres(SequentialTaskSet):
 
 
 class executeTest(HttpUser):
-    host = "https://reqres.in"
     wait_time = between(1, 6)
     tasks = [reqres]

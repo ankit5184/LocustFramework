@@ -1,1 +1,30 @@
 
+[2023-04-17 16:39:42,214] MSDT081/INFO/locust.main: Run time limit set to 400 seconds
+[2023-04-17 16:39:42,215] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-17 16:39:42,217] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
+[2023-04-17 16:39:42,240] MSDT081/CRITICAL/locust.runners: Unhandled exception in greenlet: <Greenlet at 0x1b7156e6660: <lambda>>
+Traceback (most recent call last):
+  File "src\\gevent\\greenlet.py", line 908, in gevent._gevent_cgreenlet.Greenlet.run
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\runners.py", line 551, in <lambda>
+    lambda: self._start(user_count, spawn_rate, wait=wait, user_classes=user_classes)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\runners.py", line 522, in _start
+    self.spawn_users(user_classes_spawn_count, wait)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\runners.py", line 245, in spawn_users
+    new_users += spawn(user_class, spawn_count)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\runners.py", line 234, in spawn
+    new_user = self.user_classes_by_name[user_class](self.environment)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\users.py", line 240, in __init__
+    raise LocustError(
+    ^^^^^^^^^^^^^^^^^
+locust.exception.LocustError: You must specify the base host. Either in the host attribute in the User class, or on the command line using the --host option.
+[2023-04-17 16:39:47,405] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-17-2023___04-39-41-PM.html
+[2023-04-17 16:39:47,408] MSDT081/INFO/locust.main: Shutting down (exit code 2)
+[2023-04-17 16:40:27,529] MSDT081/INFO/locust.main: Run time limit set to 400 seconds
+[2023-04-17 16:40:27,529] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-17 16:40:27,531] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
+[2023-04-17 16:40:30,656] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-17-2023___04-40-26-PM.html
+[2023-04-17 16:40:30,659] MSDT081/INFO/locust.main: Shutting down (exit code 0)
