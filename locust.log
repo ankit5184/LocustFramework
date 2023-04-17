@@ -22,3 +22,10 @@
 [2023-04-17 14:31:38,159] MSDT081/INFO/locust.main: Run time limit set to 10 seconds
 [2023-04-17 14:31:38,159] MSDT081/INFO/locust.main: Starting Locust 2.15.1
 [2023-04-17 14:31:38,160] MSDT081/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2023-04-17 14:32:51,446] MSDT081/INFO/locust.main: Run time limit set to 10 seconds
+[2023-04-17 14:32:51,446] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-17 14:32:51,447] MSDT081/INFO/locust.runners: Ramping to 10 users at a rate of 1.00 per second
+[2023-04-17 14:33:00,508] MSDT081/INFO/locust.runners: All users spawned: {"MyReqRes": 4, "executeTest": 3, "runtest": 3} (10 total users)
+[2023-04-17 14:33:01,109] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
+[2023-04-17 14:33:01,422] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-17-2023___02-32-50-PM.html
+[2023-04-17 14:33:01,425] MSDT081/INFO/locust.main: Shutting down (exit code 0)
