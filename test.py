@@ -13,7 +13,7 @@ if __name__ == '__main__':
     for test_file in test_files:
         report_file = os.path.join(report_folder, f"report_{timestamp}.html")
         processes.append(subprocess.Popen(
-            ["locust", "-f", test_file, "--host=https://reqres.in","--headless", "-u", "10", "-r", "1", "-t", "10s", "--html", report_file,
+            ["locust", "-f", test_file, "--host=https://reqres.in","--headless", "-u", "100", "-r", "1", "-t", "10s", "--html", report_file,
              "--logfile", "locust.log"]))
 
     for process in processes:
