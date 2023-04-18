@@ -12,7 +12,7 @@ class MyReqRes(HttpUser):
 
     @task
     def create_user(self):
-        res = self.client.post("api/users", data='''
+        res = self.client.post("/api/users", data='''
            {"name": "morpheus","job": "leader"}
            ''')
         print(res.text)
