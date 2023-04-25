@@ -28,3 +28,61 @@ locust.exception.LocustError: You must specify the base host. Either in the host
 [2023-04-17 16:40:27,531] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
 [2023-04-17 16:40:30,656] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-17-2023___04-40-26-PM.html
 [2023-04-17 16:40:30,659] MSDT081/INFO/locust.main: Shutting down (exit code 0)
+[2023-04-24 20:13:06,282] MSDT081/INFO/locust.main: Run time limit set to 400 seconds
+[2023-04-24 20:13:06,283] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-24 20:13:06,285] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 1.00 per second
+[2023-04-24 20:14:58,472] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-24-2023___08-13-05-PM.html
+[2023-04-24 20:14:58,475] MSDT081/INFO/locust.main: Shutting down (exit code 1)
+[2023-04-24 20:15:08,687] MSDT081/INFO/locust.main: Run time limit set to 200 seconds
+[2023-04-24 20:15:08,687] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-24 20:15:08,689] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 25.00 per second
+[2023-04-24 20:15:18,732] MSDT081/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:15:51,211] MSDT081/INFO/locust.runners: All users spawned: {"MyReqRes": 334, "executeTest": 333, "runtest": 333} (1000 total users)
+[2023-04-24 20:18:28,510] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
+[2023-04-24 20:18:29,257] MSDT081/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:18:29,292] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-24-2023___08-15-07-PM.html
+[2023-04-24 20:18:29,295] MSDT081/INFO/locust.main: Shutting down (exit code 1)
+[2023-04-24 20:19:03,685] MSDT081/INFO/locust.main: Run time limit set to 90 seconds
+[2023-04-24 20:19:03,685] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-24 20:19:03,687] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 25.00 per second
+[2023-04-24 20:19:13,767] MSDT081/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:19:46,222] MSDT081/INFO/locust.runners: All users spawned: {"MyReqRes": 334, "executeTest": 333, "runtest": 333} (1000 total users)
+[2023-04-24 20:20:06,319] MSDT081/ERROR/locust.user.task: Unexpected status code : 520
+Traceback (most recent call last):
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 347, in run
+    self.execute_next_task()
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 384, in execute_task
+    task(self)
+  File "testCases//firstTest.py", line 46, in delete_user
+    assert status_code == 204, f"Unexpected status code : {status_code}"
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: Unexpected status code : 520
+
+[2023-04-24 20:20:33,391] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
+[2023-04-24 20:20:34,218] MSDT081/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:20:34,250] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-24-2023___08-19-02-PM.html
+[2023-04-24 20:20:34,253] MSDT081/INFO/locust.main: Shutting down (exit code 1)
+[2023-04-24 20:20:57,922] MSDT081/INFO/locust.main: Run time limit set to 60 seconds
+[2023-04-24 20:20:57,923] MSDT081/INFO/locust.main: Starting Locust 2.15.1
+[2023-04-24 20:20:57,924] MSDT081/INFO/locust.runners: Ramping to 1000 users at a rate of 25.00 per second
+[2023-04-24 20:21:07,985] MSDT081/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:21:08,532] MSDT081/ERROR/locust.user.task: Unexpected status code : 520
+Traceback (most recent call last):
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 347, in run
+    self.execute_next_task()
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "C:\Users\AnkitKumar\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py", line 384, in execute_task
+    task(self)
+  File "testCases//firstTest.py", line 38, in update_user
+    assert status_code == 200, f"Unexpected status code : {status_code}"
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: Unexpected status code : 520
+
+[2023-04-24 20:21:41,067] MSDT081/INFO/locust.runners: All users spawned: {"MyReqRes": 334, "executeTest": 333, "runtest": 333} (1000 total users)
+[2023-04-24 20:21:57,667] MSDT081/INFO/locust.main: --run-time limit reached, shutting down
+[2023-04-24 20:21:58,392] MSDT081/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2023-04-24 20:21:58,423] MSDT081/INFO/locust.main: writing html report to file: Reports\report_04-24-2023___08-20-56-PM.html
+[2023-04-24 20:21:58,426] MSDT081/INFO/locust.main: Shutting down (exit code 1)
